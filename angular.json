@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "mysticMani"
+  "defaultProject": "mysticMani",
+  "cli": {
+    "analytics": false
+  }
 }

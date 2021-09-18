@@ -19,156 +19,181 @@ export class TeamComponent implements OnInit {
   council = [
     {
       'id': 1,
-      'name': "Ishan Singh",
+      'name': "Aman Kukretti",
       'designation': "Convener",
-      'mailId': "mailto:ishansingh007007@gmail.com",
-      'linkedIn': "https://www.linkedin.com/in/ishan-singh-071590174",
-      'imgSrc': "assets/images/Ishan_Singh.jpg"
+      'mailId': "mailto:amankukretti08@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/aman-kukretti/",
+      'imgSrc': "assets/images/Aman_Kukretti.jpg"
     },
     {
       'id': 2,
-      'name': "Meetali Choudhary",
+      'name': "Ameesha Dabas",
       'designation': "Fest Coordinator",
-      'mailId': "mailto:meetali239@gmail.com",
-      'linkedIn': "https://www.linkedin.com/in/meetali-choudhary-32035b191",
-      'imgSrc': "assets/images/Meetali_Choudhary.jpg"
+      'mailId': "mailto:ameeshadabas2002@gmail.com ",
+      'linkedIn': "https://www.linkedin.com/in/ameesha-dabas-8a5b121b8/",
+      'imgSrc': "assets/images/Ameesha_Dabas.jpg"
     },
     {
       'id': 3,
-      'name': "Syed Mohammed Arsalan",
+      'name': "Mohd Amaan",
       'designation': "Fest Coordinator",
-      'mailId': "mailto:smsyedarsalan@gmail.com",
-      'linkedIn': "https://www.linkedin.com/in/syed-mohammed-arsalan-abb215191",
-      'imgSrc': "assets/images/Syed_Mohammed_Arsalan.jpg"
+      'mailId': "mailto:mohdamaan43210@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/mohd-amaan-8307371b4",
+      'imgSrc': "assets/images/Mohd_Amaan.jpg"
     },
     {
       'id': 4,
-      'name': "Agastya Sethi",
+      'name': "Chirag Sethi",
       'designation': "General Secretary",
-      'mailId': "mailto:agastyasethi99@gmail.com",
-      'linkedIn': "http://linkedin.com/in/agastya-sethi-9563a9174",
-      'imgSrc': "assets/images/Agastya_Sethi.jpg"
+      'mailId': "mailto:csethi018@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/chiragsethi18",
+      'imgSrc': "assets/images/Chirag_Sethi.jpg"
     },
     {
       'id': 5,
-      'name': "Mrinal Thakur",
+      'name': "Bhartesh Kataria",
       'designation': "General Secretary",
-      'mailId': "mailto:mrinalthakur40@gmail.com",
-      'linkedIn': "https://www.linkedin.com/in/mrinal-thakur-121590173",
-      'imgSrc': "assets/images/Mrinal_Thakur.jpeg"
+      'mailId': "mailto:bharteshkataria23@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/bhartesh-kataria-05398a1a3",
+      'imgSrc': "assets/images/Bhartesh_Kataria.jpg"
     },
     {
       'id': 6,
-      'name': "Devashish Gupta",
+      'name': "Manisha",
       'designation': "Joint Secretary",
-      'mailId': "mailto:dev132435@gmail.com",
-      'linkedIn': "https://www.linkedin.com/in/devashish-gupta-466738154",
-      'imgSrc': "assets/images/Devashish_Gupta.jpg"
+      'mailId': "mailto:manishadabla2001@gmail.com ",
+      'linkedIn': "https://www.linkedin.com/in/manisha-dabla-a8a8a3191",
+      'imgSrc': "assets/images/Manisha.jpg"
     },
     {
       'id': 7,
-      'name': "Vrinda",
+      'name': "Anikait",
       'designation': "Joint Secretary",
-      'mailId': "mailto:svrin94@gmail.com",
-      'linkedIn': "http://linkedin.com/in/vrinda-sharma-8b8967199",
-      'imgSrc': "assets/images/Vrinda.jpg"
+      'mailId': "mailto:anikait101@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/anikait-arya-a398341a0/",
+      'imgSrc': "assets/images/Anikait_Arya.jpeg"
     },
     {
       'id': 8,
-      'name': "Sudipta Kumar Das",
+      'name': "Parth Gupta",
       'designation': "Joint Secretary",
-      'mailId': "mailto:sudiptadas2000k@gmail.com",
-      'linkedIn': "https://www.linkedin.com/in/sudipta-kumar-das-66a587174/",
-      'imgSrc': "assets/images/Sudipta_Kumar_Das.jpeg"
+      'mailId': "mailto:parth1716@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/parth-gupta-6754871a4/",
+      'imgSrc': "assets/images/Parth_Gupta.jpg"
     },
     {
       'id': 9,
-      'name': "Seemant Aggarwal",
+      'name': "Jayant",
       'designation': "Treasurer",
-      'mailId': "mailto:seemantanishth@gmail.com",
-      'linkedIn': "https://www.linkedin.com/in/seemant-aggarwal-89650b194",
-      'imgSrc': "assets/images/Seemant_Aggarwal.jpeg"
+      'mailId': "mailto:ahujajayant79@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/jayant-ahuja-53076a19b",
+      'imgSrc': "assets/images/Jayant.jpg"
     },
     {
-      'id': 10,
-      'name': "Aman Bhatia",
-      'designation': "Corporate Head",
-      'mailId': "mailto:aman.b25k@gmail.com",
-      'linkedIn': "https://www.linkedin.com/in/aman-bhatia-2b475518b/",
-      'imgSrc': "assets/images/Aman_Bhatia.jpg"
-    },
-    {
-      'id': 11,
-      'name': "Nimish Sharma",
-      'designation': "Corporate Head",
-      'mailId': "mailto:nimish.1500@gmail.com",
-      'linkedIn': "https://www.linkedin.com/in/nimishsharma15",
-      'imgSrc': "assets/images/Nimish_Sharma.jpeg"
+      'id': 20,
+      'name': "Nitish Kumar",
+      'designation': "Technical Head",
+      'mailId': "mailto:nitishkumar12c@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/nitish-kumar-370262196/",
+      'imgSrc': "assets/images/Nitish_Kumar.jpg"
     },
     {
       'id': 12,
-      'name': "Nafis Ahmed",
+      'name': "Akshit Bansal",
       'designation': "Operations Head",
-      'mailId': "mailto:nafisahmedbhati@gmail.com",
-      'linkedIn': "https://www.linkedin.com/in/nafis-ahmed-bhati-b12b1b1a7/",
-      'imgSrc': "assets/images/Nafis_Ahmed.jpg"
+      'mailId': "mailto:akshit.bansal755@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/abansal755/",
+      'imgSrc': "assets/images/Akshit_Bansal.jpg"
     },
     {
       'id': 13,
-      'name': "Sachin Kumar Rai",
+      'name': "Kartikey",
       'designation': "Operations Head",
-      'mailId': "mailto:srai47727@gmail.com",
-      'linkedIn': "http://linkedin.com/in/sachin-rai-9570a1193",
-      'imgSrc': "assets/images/Sachin_Kumar_Rai.jpg"
+      'mailId': "mailto:kmkartikey417@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/kartikey-mishra-56059617b/",
+      'imgSrc': "assets/images/Kartikey_Mishra.jpeg"
     },
     {
       'id': 14,
-      'name': "Arun Singh Patel",
+      'name': "Shivam Sukhija",
       'designation': "Events Head",
-      'mailId': "mailto:arunsinghpatel11@gmail.com",
-      'linkedIn': "https://www.linkedin.com/in/arun-singh-patel-274b6116b",
-      'imgSrc': "assets/images/Arun_Singh_Patel.jpg"
+      'mailId': "mailto:shivamsukhija57@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/shivam-sukhija-67a194206/",
+      'imgSrc': "assets/images/Shivam_Sukhija.jpg"
     },
     {
       'id': 15,
-      'name': "Praveen Kumar Azad",
+      'name': "Sadaf Athar Khan",
       'designation': "Events Head",
-      'mailId': "mailto:kumarazadpraveen@gmail.com",
-      'linkedIn': "https://www.linkedin.com/in/praveen-kumar-azad-67b241146",
-      'imgSrc': "assets/images/Praveen_Kumar_Azad.jpeg"
+      'mailId': "mailto:khanfadas@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/sak110/",
+      'imgSrc': "assets/images/Sadaf_Athar_Khan.jpeg"
+    },
+    {
+      'id': 10,
+      'name': "Isha Agarwal",
+      'designation': "Corporate Head",
+      'mailId': "mailto:agr.iisha@gmail.com",
+      'linkedIn': "http://linkedin.com/in/isha-agarwal01",
+      'imgSrc': "assets/images/Isha_Aggarwal.jpg"
+    },
+    {
+      'id': 11,
+      'name': "Pratik",
+      'designation': "Corporate Head",
+      'mailId': "mailto:sariapratik@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/pratik-saria-b58601197/",
+      'imgSrc': "assets/images/Pratik_Saria.jpg"
     },
     {
       'id': 16,
-      'name': "Rajat Saini",
+      'name': "Rajat",
       'designation': "Design Head",
-      'mailId': "mailto:rajatsai18@gmail.com",
-      'linkedIn': "https://www.linkedin.com/in/rajat-saini-507982179",
-      'imgSrc': "assets/images/Rajat_Saini.jpg"
+      'mailId': "mailto:choudharyrajat1311@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/rajat-choudhary-24147519a",
+      'imgSrc': "assets/images/Rajat_design.jpg"
     },
     {
       'id': 17,
-      'name': "Yamini Bhalla",
+      'name': "Badal",
       'designation': "Publicity Head",
-      'mailId': "mailto:yaminibhalla11@gmail.com",
-      'linkedIn': "http://www.linkedin.com/in/yamini-bhalla-122324192",
-      'imgSrc': "assets/images/Yamini.png"
+      'mailId': "mailto:badalgami@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/badal-gami-0523641ba/",
+      'imgSrc': "assets/images/Badal_Gami.jpg"
     },
     {
       'id': 18,
-      'name': "Abhishek Mittal",
+      'name': "Vikalp Shishodia",
       'designation': "Public Relations Head",
-      'mailId': "",
-      'linkedIn': "",
-      'imgSrc': "assets/images/Abhishek_Mittal.jpg"
+      'mailId': "mailto:vikalpshishodia37@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/vikalpshishodia/",
+      'imgSrc': "assets/images/Vikalp_Shishodia.jpg"
     },
     {
       'id': 19,
-      'name': "Aditya Pratap Gupta",
+      'name': "Vaibhav Raj Sahni",
       'designation': "Public Relations Head",
-      'mailId': "",
-      'linkedIn': "",
-      'imgSrc': "assets/images/Aditya_Pratap_Gupta.jpg"
+      'mailId': "mailto:vaibhavsahniji@gmail.com ",
+      'linkedIn': "https://www.linkedin.com/in/vaibhav-raj-sahni-138380191",
+      'imgSrc': "assets/images/Vaibhav_Raj_Sahni.jpg"
     },
+   
+    {
+      'id': 21,
+      'name': "Shambhavi Rathore",
+      'designation': "Content Head",
+      'mailId': "mailto:shambhavi.rathore2000@gmail.com",
+      'linkedIn': "https://www.linkedin.com/in/shambhavi-rathore-b8b8771b5",
+      'imgSrc': "assets/images/Shambhavi_Rathore.jpg"
+    },
+    {
+      'id': 22,
+      'name': "Ahmad H Khan",
+      'designation': "DGM Head",
+      'mailId': "",
+      'linkedIn': "https://www.linkedin.com/in/ahmad-habib-khan/",
+      'imgSrc': "assets/images/Ahmad_Khan.jpg"
+    }
   ]
 
   ngOnInit(): void {
