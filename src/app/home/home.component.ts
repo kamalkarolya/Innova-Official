@@ -9,7 +9,7 @@ import { Position } from "../shared/position";
 export class HomeComponent implements OnInit {
 
   dots : Position[] = [];
-  temp: Position;
+  temp : Position;
 
   constructor() {
 
