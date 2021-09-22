@@ -8,6 +8,7 @@ import { TemplateBasicComponent } from './template-basic/template-basic.componen
 import { WorkshopsComponent } from './workshops/workshops.component';
 import { ContactComponent } from './contact/contact.component';
 import { MoreInfoComponent } from './home/more-info/more-info.component';
+import { MoreComponent } from './more/more.component'
 
 export const routes: Routes = [
   { path: 'home',  component: HomeComponent},
@@ -41,6 +42,10 @@ export const routes: Routes = [
       path:'more-info',
       component: MoreInfoComponent
     },
+    {
+      path: 'more/:id',
+      component: MoreComponent
+    }
   ]
   },
   // { path: 'contact',     component: ContactComponent },

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { MoreInfoService } from '../shared/more-info/more-info.service'
 @Component({
   selector: 'app-lectures',
   templateUrl: './lectures.component.html',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LecturesComponent implements OnInit {
 
-  constructor() { }
+  constructor( private moreinfo: MoreInfoService) { }
   upcoming = [
   ]
   lectures = [
@@ -20,6 +20,7 @@ export class LecturesComponent implements OnInit {
       'date' : '18th Dec 20',
       'time' : "4:30pm",
       'imgSrc' : 'assets/images/Neeraj_Jhanji.jpg',
+      'more' : 'Neeraj Janjhis Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
       'id': 1,
@@ -27,6 +28,7 @@ export class LecturesComponent implements OnInit {
       'about': 'Founder of Geeks For Geeks',
       'status': 0,
       'imgSrc' : 'https://qph.fs.quoracdn.net/main-thumb-6825396-200-mdiwxmtjnirbojkyqreyzgtdwjrgzuuj.jpeg',
+      'more' : 'Sandeep Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
       'id': 2,
@@ -34,6 +36,7 @@ export class LecturesComponent implements OnInit {
       'about': 'Author, Activist & Motivational Speaker',
       'status': 0,
       'imgSrc' : 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Faamadmi.in%2Fwp-content%2Fuploads%2F2020%2F05%2FShiv-khera-Quotes.jpg&f=1&nofb=1',
+      'more' : 'Shiva Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
     },
     {
       'id': 3,
@@ -68,7 +71,7 @@ export class LecturesComponent implements OnInit {
       'name': 'Diwakar Vaish',
       'about': 'Robotics Researcher',
       'status': 0,
-      'imgSrc' : 'https://pbs.twimg.com/profile_images/809431344770150400/Lo0sJLur_400x400.jpg',
+      'imgSrc' : 'https://pbs.twimg.com/profile_images/809431344770150400/Lo0sJLur_400x400',
     },
     {
       'id': 8,
@@ -86,6 +89,9 @@ export class LecturesComponent implements OnInit {
     },
   ]
 
+  findOne(data){
+    this.moreinfo.setMoreInfo(this.lectures.find(x => x.id === data).more)
+  }
   ngOnInit(): void {
     
   }
