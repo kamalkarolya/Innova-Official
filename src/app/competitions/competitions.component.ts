@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MoreInfoService } from '../shared/more-info/more-info.service'
 
 @Component({
   selector: 'app-competitions',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CompetitionsComponent implements OnInit {
 
-  constructor() { }
+  constructor( private moreinfo: MoreInfoService ) {  }
+  
+  more: String
 
   competitions = [{
     'id': 1,
@@ -15,6 +18,7 @@ export class CompetitionsComponent implements OnInit {
     'desc': 'It is the RC car racing competition where participants compete with each other using there personalised cars surpassing hurdles on the track',
     'status': false,
     'imgSrc': 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.rcdriver.com%2Fwp-content%2Fuploads%2F2016%2F04%2FECX-Revenge-Type-E-Brings-Brushless-Power-to-Your-First-RC-Race-Buggy-1.jpg&f=1&nofb=1',
+    'more' : 'lorem epsum bakwas shit'
   },
   {
     'id': 2,
@@ -22,6 +26,7 @@ export class CompetitionsComponent implements OnInit {
     'desc': 'It is a design competition where you are provided with the case questions and you need to design a structure to solve it.',
     'status': false,
     'imgSrc': 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tekla.com%2Fsites%2Fdefault%2Ffiles%2FInternational%2FProducts%2F2015-01-tsd-kdl-multi-material.png&f=1&nofb=1',
+    'more' : 'lorem epsum bakwas shit'
   },
   {
     'id': 3,
@@ -66,7 +71,9 @@ export class CompetitionsComponent implements OnInit {
     'imgSrc': 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.dronetrest.com%2Fuploads%2Fdb5290%2F169%2F6641e6bc9a1675fc.jpg&f=1&nofb=1',
   }
   ]
-
+  findOne(data){
+    this.moreinfo.setMoreInfo(this.competitions.find(x => x.id === data).more)
+  }
   ngOnInit(): void {
   }
 
