@@ -67,8 +67,7 @@
           <p>{{ speaker.about }}</p>
 
         </div>
-
-        <button (click)="findOne(speaker.id)" class="btn-grad" routerLink="/more/{{ speaker.id }}">More Info</button>
+        <button (click)="findOne(speaker.id)" class="btn-grad" routerLink="/more/{{speaker.id}}">More Info</button>
         <img src="{{ speaker.imgSrc }}" class="photo position-absolute" />
       </div>
     </div>
