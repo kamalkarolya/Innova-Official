@@ -15,8 +15,8 @@
                     <p>{{competition.desc}}</p>
                 </mat-card-content>
                 <mat-card-actions fxLayoutAlign="end">
-                    <button mat-button class="bg-black rounded">LIKE</button>
-                    <button mat-button class="bg-black rounded">SHARE</button>
+                    <button (click)="findOne(competition.id)" class="btn-grad" routerLink="/more/{{ competition.id }}">More Info</button>
+                    
                 </mat-card-actions>
             </mat-card>
         </div>
