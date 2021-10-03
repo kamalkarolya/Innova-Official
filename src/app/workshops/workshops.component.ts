@@ -8,89 +8,65 @@ import { Component, OnInit } from '@angular/core';
 export class WorkshopsComponent implements OnInit {
   constructor() {}
   upcoming = [];
-  workshops = [
-    {
-      id: 0,
-      name: 'Neeraj Jhanji',
-      about: 'Founder, ImaHima',
-      desc: 'Inventor of mobile checkin, status updates and mobile chat.',
-      status: 0,
-      date: '18th Dec 20',
-      time: '4:30pm',
-      imgSrc: 'assets/images/Neeraj_Jhanji.jpg',
-    },
-    {
-      id: 1,
-      name: 'Sandeep Jain',
-      about: 'Founder of Geeks For Geeks',
-      status: 0,
-      imgSrc:
-        'https://qph.fs.quoracdn.net/main-thumb-6825396-200-mdiwxmtjnirbojkyqreyzgtdwjrgzuuj.jpeg',
-    },
-    {
-      id: 2,
-      name: 'Shiv Khera',
-      about: 'Author, Activist & Motivational Speaker',
-      status: 0,
-      imgSrc:
-        'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Faamadmi.in%2Fwp-content%2Fuploads%2F2020%2F05%2FShiv-khera-Quotes.jpg&f=1&nofb=1',
-    },
-    {
-      id: 3,
-      name: 'RJ Naved',
-      about: 'Radio Jockey',
-      status: 0,
-      imgSrc:
-        'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.gabdig.com%2Fwp-content%2Fuploads%2F2017%2F07%2Fbest-rj-naved.jpg&f=1&nofb=1',
-    },
-    {
-      id: 4,
-      name: 'General VK Singh',
-      about: 'Former Four-Star General Army',
-      status: 0,
-      imgSrc:
-        'https://upload.wikimedia.org/wikipedia/commons/0/0f/VK_singh.jpg',
-    },
-    {
-      id: 5,
-      name: 'Shekhar Gupta',
-      about: 'Indian Journalist',
-      status: 0,
-      imgSrc:
-        'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.opindia.com%2Fwp-content%2Fuploads%2F2019%2F03%2F29BA5540-0638-4757-AE72-64A85BFA2F17-696x385.jpeg&f=1&nofb=1',
-    },
-    {
-      id: 6,
-      name: 'Neharika Yadav',
-      about: "India's Lady Super-Biker",
-      status: 0,
-      imgSrc:
-        'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flifebeyondnumbers.com%2Fwp-content%2Fuploads%2F2016%2F02%2FNeharika-Yadav-Dentist-Biker.png&f=1&nofb=1',
-    },
-    {
-      id: 7,
-      name: 'Diwakar Vaish',
-      about: 'Robotics Researcher',
-      status: 0,
-      imgSrc:
-        'https://pbs.twimg.com/profile_images/809431344770150400/Lo0sJLur_400x400.jpg',
-    },
-    {
-      id: 8,
-      name: 'Mukul Kanitkar',
-      about: 'Joint Organizing Secretary of BSM',
-      status: 0,
-      imgSrc: 'https://www.newsbharati.com//AuthorImages/3317.jpg',
-    },
-    {
-      id: 9,
-      name: 'Dr. Ajay Kumar',
-      about: 'Joint Secretary, Ministry of Communications',
-      status: 0,
-      imgSrc:
-        'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdefence.capital%2Fwp-content%2Fuploads%2F2019%2F08%2Fdr-ajay-kumar.jpg&f=1&nofb=1',
-    },
-  ];
+  workshops = [{
+    'id': 1,
+    'name': 'Full Throttle',
+    'desc': 'It is the RC car racing competition where participants compete with each other using there personalised cars surpassing hurdles on the track',
+    'status': false,
+    'imgSrc': 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.rcdriver.com%2Fwp-content%2Fuploads%2F2016%2F04%2FECX-Revenge-Type-E-Brings-Brushless-Power-to-Your-First-RC-Race-Buggy-1.jpg&f=1&nofb=1',
+    'more' : 'lorem epsum bakwas shit'
+  },
+  {
+    'id': 2,
+    'name': 'Structure D',
+    'desc': 'It is a design competition where you are provided with the case questions and you need to design a structure to solve it.',
+    'status': false,
+    'imgSrc': 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tekla.com%2Fsites%2Fdefault%2Ffiles%2FInternational%2FProducts%2F2015-01-tsd-kdl-multi-material.png&f=1&nofb=1',
+    'more' : 'lorem epsum bakwas shit'
+  },
+  {
+    'id': 3,
+    'name': 'Aeroglider',
+    'desc': 'Contestants make their own glider using Balsa wood, taking care of the aerodynamics and perfection. The gliders are test by throwing from a high raised buiding.',
+    'status': false,
+    'imgSrc': 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.airfieldmodels.com%2Fgallery_of_models%2Fmiscellaneous%2Fgraupner_mini%2Fimages%2F18177.jpg&f=1&nofb=1',
+  },
+  {
+    'id': 4,
+    'name': 'Find D Bug',
+    'desc': 'The participants are provided with a huge file of code in which they need to find the bug to win the competition',
+    'status': false,
+    'imgSrc': 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.makeuseof.com%2Fwp-content%2Fuploads%2F2016%2F07%2Fcleaner-better-code-670x335.jpg&f=1&nofb=1',
+  },
+  {
+    'id': 5,
+    'name': 'Codethon',
+    'desc': 'It is the race to solve the competitive coding questions by passing all test cases',
+    'status': false,
+    'imgSrc': 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2Fb%2F3%2Fb%2F1202147-popular-coding-wallpaper-hd-2048x1365-for-android.jpg&f=1&nofb=1',
+  },
+  {
+    'id': 6,
+    'name': 'Design It',
+    'desc': 'It is a digital art design competition on a set of topics. The best design illustration wins.',
+    'status': false,
+    'imgSrc': 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn1.digitalartsonline.co.uk%2Fcmsdata%2Fslideshow%2F3630827%2Fphotoshop_update_hero-photoshop-cc-100630829-orig.jpg&f=1&nofb=1',
+  },
+  {
+    'id': 7,
+    'name': 'Case Study Competition',
+    'desc': 'Problems and situations occur everytime but it is important how to tackle them. Partiticants are provided with a case scenario which they need to solve',
+    'status': false,
+    'imgSrc': 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.hubspot.com%2Fhubfs%2Fhow-to-write-a-case-study.jpg&f=1&nofb=1',
+  },
+  {
+    'id': 8,
+    'name': 'Quadrace',
+    'desc': 'It is the race between Quadcopters where each participants need to pass the hurdles in the track.',
+    'status': false,
+    'imgSrc': 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.dronetrest.com%2Fuploads%2Fdb5290%2F169%2F6641e6bc9a1675fc.jpg&f=1&nofb=1',
+  }
+  ]
 
   ngOnInit(): void {}
 }
