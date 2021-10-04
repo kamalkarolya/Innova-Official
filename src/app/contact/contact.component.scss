@@ -12,11 +12,11 @@
 }
 .para{
   background-color: black;
-  padding: 2rem;
+  padding: 2em;
   border: 1px solid white;
   margin: 1rem;
   border-radius: 65px;
-  // text-align: right;
+  align-self: center;
   font-size: 1rem;
   font-weight: 200;
   line-height: 100%;
@@ -55,9 +55,13 @@
   width: 50%;
 }
 .parabox{
+  padding-left: 2vw;
   width: 15rem;
   line-height: normal;
 
+}
+.mt-big{
+  margin-top: 0px;
 }
 @media only screen and (max-width: 500px) {
     .para{
