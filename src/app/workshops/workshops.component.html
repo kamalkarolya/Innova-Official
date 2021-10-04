@@ -3,7 +3,23 @@
     <div class="w-100" fxLayout="column" fxLayoutAlign="space-around end">
         <!-- <div class="sub-heading text-white mt-3">Faculty Advisor</div> -->
         <div class="sub-heading text-white mt-big">Upcoming</div>
-
+        <div class="text-white mt-3 w-100" fxLayout="row wrap" fxLayoutAlign="center center">
+          <div *ngFor="let workshop of workshops">
+              <mat-card *ngIf="workshop.status" class="example-card bg-darkgrey text-white m-3">
+                  <img mat-card-image src="{{workshop.imgSrc}}" class="img-size" alt="Photo of a Shiba Inu">
+                  <mat-card-content>
+                      <h1>{{workshop.name}}</h1>
+                      <p>{{workshop.desc}}</p>
+                  </mat-card-content>
+                  <mat-card-actions fxLayoutAlign="end">
+                    <div class="button" id="button-3">
+                      <div id="circle"></div>
+                      <a href="#">Register</a>
+                    </div>
+                  </mat-card-actions>
+              </mat-card>
+          </div>
+      </div>
         <div class="sub-heading text-white mt-big">Archived</div>
         <div class="text-white mt-3 w-100" fxLayout="row wrap" fxLayoutAlign="center center">
             <div *ngFor="let workshop of workshops">
@@ -14,9 +30,10 @@
                         <p>{{workshop.desc}}</p>
                     </mat-card-content>
                     <mat-card-actions fxLayoutAlign="end">
-                        <button (click)="findOne(workshop.id)" class="btn-grad"
-                            routerLink="/more/{{ workshop.id }}">More Info</button>
-
+                      <button class="button" id="button-3" (click)="findOne(workshop.id)" routerLink="/more/{{ workshop.id }}" >
+                        <div  id="circle"></div>
+                        <span>More info </span>
+                      </button>
                     </mat-card-actions>
                 </mat-card>
             </div>
