@@ -15,7 +15,7 @@ export class CompetitionsComponent implements OnInit {
 
   competitions = competitionData;
   findOne(data){
-    this.moreinfo.setMoreInfo(this.competitions.find(x => x.id === data).more)
+    this.moreinfo.setMoreInfo(this.competitions.find(x => x.id === data))
   }
   ngOnInit(): void {
   }

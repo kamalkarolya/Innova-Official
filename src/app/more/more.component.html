@@ -1,11 +1,28 @@
-<section class="p-3">
-    <div class="heading text-white mb-big">More-Info</div>
-  
-       <img  src="https://cdn.wallpapersafari.com/9/33/7fXGE6.jpg" width="500px" height="400px">
-  
-    
-     <div class= "text-white ml-big"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, nulla! Ratione expedita iste magni quis magnam delectus architecto dolores, quam quod unde, quas perferendis enim eum laudantium consequuntur, laborum nam? Excepturi totam perferendis reiciendis alias molestias laboriosam corrupti delectus eius? Facere ex atque alias perspiciatis placeat in nemo tenetur quisquam, voluptatem quos saepe eaque. Quibusdam tempora pariatur expedita eum porro unde est vitae doloribus ad voluptate magni voluptatibus illum aspernatur, quae vero accusamus doloremque veritatis alias? Eaque accusantium omnis fugiat impedit tempore. Ullam similique odio repellendus sapiente possimus at nesciunt officiis placeat esse fugit accusantium fugiat iusto, quis autem aperiam!
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nam beatae laboriosam qui fuga doloribus, odio reprehenderit enim excepturi numquam veritatis architecto fugiat illo aperiam ex consequatur quos voluptatem atque eveniet asperiores ut sint magni perspiciatis. Ea ullam excepturi, illum dolorum perferendis sed? Architecto eaque quas aperiam fugiat repudiandae provident esse explicabo repellat placeat deserunt. Perferendis tempora fugit minima ratione, sequi error nulla totam enim vero cupiditate sapiente officia deserunt iusto. Sapiente dolores quasi quisquam qui corporis quia excepturi, et exercitationem necessitatibus? Praesentium corporis ad commodi voluptatum similique tempore necessitatibus nemo distinctio delectus recusandae eaque quod, maiores architecto ab voluptates?
-     </p> </div>
-</section>
+<div class="wrapper">
+  <div class="profile-card js-profile-card">
+    <div class="profile-card__img">
+      <img
+        src="{{info.imgSrc}}"
+        alt="profile card"
+      />
+    </div>
+    <div class="profile-card__cnt js-profile-cnt">
+      <div class="profile-card__name">Relay Race</div>
 
+      <div class="profile-card-inf">
+        <div class="profile-card-inf__item">
+          <div class="profile-card-inf__title">₹ 250000</div>
+          <div class="profile-card-inf__txt">Prize</div>
+        </div>
+
+        <div class="profile-card-inf__item">
+          <div class="profile-card-inf__title">25 Sept</div>
+          <div class="profile-card-inf__txt">2020</div>
+        </div>
+        <div class="profile-card__txt">{{ info.desc }}</div>
+        <br />
+        <div class="profile-card__txt">{{ info.more }}</div>
+      </div>
+    </div>
+  </div>
+</div>

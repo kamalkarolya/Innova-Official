@@ -8,12 +8,17 @@ import {MoreInfoService} from '../shared/more-info/more-info.service'
 export class MoreComponent implements OnInit {
 
   
-  more: String
+  info = {
+    more: String,
+    desc: String,
+    imgSrc: String,
+  }
 
   constructor(private moreinfo: MoreInfoService) { }
   
   ngOnInit(): void {
-    this.more= this.moreinfo.getMoreInfo()
+    this.info= this.moreinfo.getMoreInfo()
+    // console.log(this.info)
   }
 
 }
