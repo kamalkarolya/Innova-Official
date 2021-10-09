@@ -10,7 +10,8 @@ export class MoreComponent implements OnInit {
   
   info = {
     more: String,
-    desc: String
+    desc: String,
+    imgSrc: String,
   }
 
   constructor(private moreinfo: MoreInfoService) { }
