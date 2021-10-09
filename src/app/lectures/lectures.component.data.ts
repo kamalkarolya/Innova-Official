@@ -60,7 +60,7 @@ const lectureData =  [
     'name': 'Diwakar Vaish',
     'about': 'Robotics Researcher',
     'status': 0,
-    'imgSrc' : 'https://pbs.twimg.com/profile_images/809431344770150400/Lo0sJLur_400x400',
+    'imgSrc' : 'https://upload.wikimedia.org/wikipedia/commons/1/15/Diwakar_Vaish.jpg',
   },
   {
     'id': 8,
