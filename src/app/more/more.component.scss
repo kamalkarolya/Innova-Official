@@ -19,14 +19,14 @@ a:hover {
   text-decoration: none;
 }
 
-.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
+// .icon {
+//   display: inline-block;
+//   width: 1em;
+//   height: 1em;
+//   stroke-width: 0;
+//   stroke: currentColor;
+//   fill: currentColor;
+// }
 
 .wrapper {
   width: 100%;
@@ -51,7 +51,7 @@ a:hover {
   min-height: 460px;
   margin: auto;
   box-shadow: 5px 18px 60px -30px white;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.87);
   border-radius: 12px;
   max-width: 700px;
   position: relative;
@@ -75,8 +75,8 @@ a:hover {
   }
 
   &__img {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
     transform: translateY(-50%);
@@ -100,7 +100,7 @@ a:hover {
     }
   }
   &__cnt {
-    margin-top: -35px;
+    margin-top: -85px;
     text-align: center;
     padding: 0 20px;
     padding-bottom: 40px;
@@ -108,8 +108,8 @@ a:hover {
   }
   &__name {
     font-weight: 700;
-    font-size: 24px;
-
+    font-size: 40px;
+    
     margin-bottom: 15px;
   }
   &__txt {
