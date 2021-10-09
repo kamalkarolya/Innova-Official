@@ -2,42 +2,40 @@
     <div class="heading text-color">Workshops</div>
     <div class="w-100" fxLayout="column" fxLayoutAlign="space-around end">
         <!-- <div class="sub-heading text-white mt-3">Faculty Advisor</div> -->
-        <div *ngIf= "upcoming[0]" class="sub-heading text-white mt-big">Upcoming</div>
-        <div class="text-white mt-3 w-100" fxLayout="row wrap" fxLayoutAlign="space-between center">
-            <div *ngFor="let speaker of upcoming" class="mt-big box speaker-card" fxLayout="column"
-                fxLayoutAlign="start">
-                <div class="active-info border-padding bg-grad" fxLayout="column" fxLayoutAlign="end end">
-                    <div class="data" fxLayout="column" fxLayoutAlign="end end">
-                        <div class="h-50" fxLayout="column" fxLayoutAlign="space-between end">
-                            <div class="w-100" fxLayout="column" fxLayoutAlign="end end"></div>
-                            <div class="name">{{ speaker.name }}</div>
-                            <div class="topic">{{ speaker.about }}</div>
-                            <div class="desc">{{ speaker.desc }}</div>
-                            <div class="w-100" fxLayout="row" fxLayoutAlign="space-between center">
-                                <div class="date">{{ speaker.date }}</div>
-                                <div class="time">{{ speaker.time }}</div>
-                            </div>
-                            <a mat-button href="" class="bg-grad text-black">REGISTER</a>
-                        </div>
-                    </div>
-                </div>
-                <img src="{{ speaker.imgSrc }}" class="photo position-absolute" />
-            </div>
-        </div>
-
-        <div class="sub-heading text-white mt-big">Past Speakers</div>
+        <div class="sub-heading text-white mt-big">Upcoming</div>
         <div class="text-white mt-3 w-100" fxLayout="row wrap" fxLayoutAlign="center center">
-            <div *ngFor="let speaker of workshops" class="mt-big ml-big box speaker-card" fxLayout="column"
-                fxLayoutAlign="start">
-                <div class="info" fxLayout="column" fxLayoutAlign="end end">
-                    <div class="name">{{ speaker.name }}</div>
-                    <p>{{ speaker.about }}</p>
-
-                </div>
-
-                <button (click)="findOne(speaker.id)" class="btn-grad" routerLink="/more/{{ speaker.id }}">More
-                    Info</button>
-                <img src="{{ speaker.imgSrc }}" class="photo position-absolute" />
+          <div *ngFor="let workshop of workshops">
+              <mat-card *ngIf="workshop.status" class="example-card bg-darkgrey text-white m-3">
+                  <img mat-card-image src="{{workshop.imgSrc}}" class="img-size" alt="Photo of a Shiba Inu">
+                  <mat-card-content>
+                      <h1>{{workshop.name}}</h1>
+                      <p>{{workshop.desc}}</p>
+                  </mat-card-content>
+                  <mat-card-actions fxLayoutAlign="end">
+                    <div class="button" id="button-3">
+                      <div id="circle"></div>
+                      <a href="#">Register</a>
+                    </div>
+                  </mat-card-actions>
+              </mat-card>
+          </div>
+      </div>
+        <div class="sub-heading text-white mt-big">Archived</div>
+        <div class="text-white mt-3 w-100" fxLayout="row wrap" fxLayoutAlign="center center">
+            <div *ngFor="let workshop of workshops">
+                <mat-card *ngIf="!workshop.status" class="example-card bg-darkgrey text-white m-3">
+                    <img mat-card-image src="{{workshop.imgSrc}}" class="img-size" alt="Photo of a Shiba Inu">
+                    <mat-card-content>
+                        <h1>{{workshop.name}}</h1>
+                        <p>{{workshop.desc}}</p>
+                    </mat-card-content>
+                    <mat-card-actions fxLayoutAlign="end">
+                      <button class="button" id="button-3" (click)="findOne(workshop.id)" routerLink="/more/{{ workshop.id }}" >
+                        <div  id="circle"></div>
+                        <span>More info </span>
+                      </button>
+                    </mat-card-actions>
+                </mat-card>
             </div>
         </div>
     </div>
