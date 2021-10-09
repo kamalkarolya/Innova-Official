@@ -1,19 +1,28 @@
-<section class="p-3">
-    <div class="heading text-white mb-big">More-Info</div>
-    <div class="idi">
-       <div>
-       <img  src="https://cdn.wallpapersafari.com/9/33/7fXGE6.jpg" width="500px" height="400px">
-      </div>
-    
-     <div class= "text-white ml-big">
-       <h1>Title</h1>
-       <h3>Description</h3>
-       <h3 id="loc">Location</h3>
-       <h3>More info</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, nulla! Ratione expedita iste magni quis magnam delectus architecto dolores, quam quod unde, quas perferendis enim eum laudantium consequuntur, laborum nam? Excepturi totam perferendis reiciendis alias molestias laboriosam corrupti delectus eius? Facere ex atque alias perspiciatis placeat in nemo tenetur quisquam, voluptatem quos saepe eaque. Quibusdam tempora pariatur expedita eum porro unde est vitae doloribus ad voluptate magni voluptatibus illum aspernatur, quae vero accusamus doloremque veritatis alias? Eaque accusantium omnis fugiat impedit tempore. Ullam similique odio repellendus sapiente possimus at nesciunt officiis placeat esse fugit accusantium fugiat iusto, quis autem aperiam!
-  
-     </p> </div></div>
-       <!-- <img  src="https://cdn.wallpapersafari.com/9/33/7fXGE6.jpg" width="500px" height="400px">   -->
-     <!-- <div class= "text-white ml-big"> <p>{{info.desc}}</p> </div> -->
-</section>
+<div class="wrapper">
+  <div class="profile-card js-profile-card">
+    <div class="profile-card__img">
+      <img
+        src="https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.15752-9/220223059_1821196514730257_3913518250494529466_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=ae9488&_nc_ohc=9JfaJJJAooMAX8TApuA&_nc_ht=scontent.fsgn2-1.fna&oh=9e80775233a37399fc9fcd9f173f04aa&oe=6171B111"
+        alt="profile card"
+      />
+    </div>
+    <div class="profile-card__cnt js-profile-cnt">
+      <div class="profile-card__name">Relay Race</div>
 
+      <div class="profile-card-inf">
+        <div class="profile-card-inf__item">
+          <div class="profile-card-inf__title">₹ 250000</div>
+          <div class="profile-card-inf__txt">Prize</div>
+        </div>
+
+        <div class="profile-card-inf__item">
+          <div class="profile-card-inf__title">25 Sept</div>
+          <div class="profile-card-inf__txt">2020</div>
+        </div>
+        <div class="profile-card__txt">{{ info.desc }}</div>
+        <br />
+        <div class="profile-card__txt">{{ info.more }}</div>
+      </div>
+    </div>
+  </div>
+</div>
