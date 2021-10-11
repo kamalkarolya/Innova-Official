@@ -167,14 +167,6 @@ const teamData = [
     'mailId': "mailto:shambhavi.rathore2000@gmail.com",
     'linkedIn': "https://www.linkedin.com/in/shambhavi-rathore-b8b8771b5",
     'imgSrc': "assets/images/Shambhavi_Rathore.jpg"
-  },
-  {
-    'id': 22,
-    'name': "Ahmad H Khan",
-    'designation': "DGM Head",
-    'mailId': "",
-    'linkedIn': "https://www.linkedin.com/in/ahmad-habib-khan/",
-    'imgSrc': "assets/images/Ahmad_Khan.jpg"
   }
 ];
 
