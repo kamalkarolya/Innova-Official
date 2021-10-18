@@ -4,17 +4,14 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class MoreInfoService {
-  moreinfo = {
-    desc: String,
-    more: String,
-    imgSrc: String
-  }
+
   constructor() { }
   setMoreInfo(data){
-    this.moreinfo=data
+    sessionStorage.setItem('data', JSON.stringify(data));
   }
-  getMoreInfo(){
-    return this.moreinfo
+  getMoreInfo(key:string){
+    let obj:any = JSON.parse(sessionStorage.getItem(key));
+    return obj;
   }
-  
+
 }
