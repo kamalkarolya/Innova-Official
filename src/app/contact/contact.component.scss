@@ -16,7 +16,7 @@
   border: 1px solid white;
   margin: 1rem;
   border-radius: 65px;
-  align-self: center;
+  // align-self: center;
   font-size: 1rem;
   font-weight: 200;
   line-height: 100%;
@@ -29,7 +29,7 @@
 
 .mails{
   text-align: center;
-  line-height: normal;
+  line-height: 1.5rem;
 }
 .fas{
   padding: 0 8px 0px 0px;
@@ -66,7 +66,7 @@
 @media only screen and (max-width: 500px) {
     .para{
         font-size:unset;
-        padding: 1.5rem;
+        padding: 2rem;
         border-radius: 56px;
     }
 
@@ -88,6 +88,7 @@
     .mails{
       text-align: unset;
       padding-left: 3vw;
+      line-height: normal;
     }
     .gform iframe{
       width: 100%;
