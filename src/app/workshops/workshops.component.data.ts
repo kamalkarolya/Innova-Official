@@ -37,7 +37,7 @@ const workshopData = [{
 },
 {
   'id': 6,
-  'name': 'Design It',
+  'name': 'sign It',
   'desc': 'It is a digital art design competition on a set of topics. The best design illustration wins.',
   'status': false,
   'imgSrc': 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn1.digitalartsonline.co.uk%2Fcmsdata%2Fslideshow%2F3630827%2Fphotoshop_update_hero-photoshop-cc-100630829-orig.jpg&f=1&nofb=1',

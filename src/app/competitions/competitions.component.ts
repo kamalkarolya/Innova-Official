@@ -11,8 +11,6 @@ export class CompetitionsComponent implements OnInit {
 
   constructor( private moreinfo: MoreInfoService ) {  }
 
-  more: String
-
   competitions = competitionData;
   findOne(data){
     this.moreinfo.setMoreInfo(this.competitions.find(x => x.id === data))
