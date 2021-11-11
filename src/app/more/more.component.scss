@@ -34,7 +34,7 @@ a:hover {
   height: auto;
   min-height: 100vh;
   padding: 50px 20px;
-  padding-top: 100px;
+  padding-top: 120px;
   display: flex;
 
   display: flex;
@@ -50,10 +50,10 @@ a:hover {
   width: 100%;
   min-height: 460px;
   margin: auto;
-  box-shadow: 5px 18px 60px -30px white;
+  
   background: rgba(255, 255, 255, 0.87);
   border-radius: 12px;
-  max-width: 700px;
+  max-width: 900px;
   position: relative;
 
   &.active {
@@ -84,12 +84,12 @@ a:hover {
     overflow: hidden;
     position: relative;
     z-index: 4;
-    box-shadow: 0px 5px 50px 0px #fff;
+   
     // background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
     // animation: colorChange 4s ease-in 0s infinite alternate;
     @media screen and (max-width: 576px) {
-      width: 120px;
-      height: 120px;
+      width: 200px;
+      height: 200px;
     }
     img {
       display: block;
@@ -108,8 +108,11 @@ a:hover {
   }
   &__name {
     font-weight: 700;
+    line-height: normal;
     font-size: 40px;
-    
+    @media screen and (max-width: 576px) {
+      margin-top: 50px;
+    }
     margin-bottom: 15px;
   }
   &__txt {
@@ -117,6 +120,8 @@ a:hover {
     font-weight: 500;
     color: #324e63;
     margin-bottom: 15px;
+    padding: 0 20px;
+    text-align: justify;
     strong {
       //color: #ff2846;
       font-weight: 700;

@@ -2,24 +2,25 @@
   <div class="profile-card js-profile-card">
     <div class="profile-card__img">
       <img
-        src="{{info.imgSrc}}"
+        src="{{info.imagePath}}"
         alt="profile card"
       />
+      
     </div>
     <div class="profile-card__cnt js-profile-cnt">
-      <div class="profile-card__name">{{info.name}} Race</div>
+      <div class="profile-card__name">{{info.title}} </div>
 
       <div class="profile-card-inf">
         <div class="profile-card-inf__item">
-          <div class="profile-card-inf__title">₹ 250000</div>
-          <div class="profile-card-inf__txt">Prize</div>
+          <div class="profile-card-inf__title"> {{info.time }} </div>
+          <div class="profile-card-inf__txt">Time</div>
         </div>
 
         <div class="profile-card-inf__item">
-          <div class="profile-card-inf__title">25 Sept</div>
-          <div class="profile-card-inf__txt">2020</div>
+          <div class="profile-card-inf__title"> {{info.date.day}}  {{info.date.month}} </div>
+          <div class="profile-card-inf__txt"> {{info.date.year}} </div>
         </div>
-        <div class="profile-card__txt">{{ info.desc }}</div>
+        <div class="profile-card__txt">{{ info.description }}</div>
         <br />
         <div class="profile-card__txt">{{ info.more }}</div>
       </div>
