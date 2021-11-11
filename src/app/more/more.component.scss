@@ -34,7 +34,7 @@ a:hover {
   height: auto;
   min-height: 100vh;
   padding: 50px 20px;
-  padding-top: 100px;
+  padding-top: 120px;
   display: flex;
 
   display: flex;
@@ -108,6 +108,7 @@ a:hover {
   }
   &__name {
     font-weight: 700;
+    line-height: normal;
     font-size: 40px;
     @media screen and (max-width: 576px) {
       margin-top: 50px;
@@ -119,6 +120,8 @@ a:hover {
     font-weight: 500;
     color: #324e63;
     margin-bottom: 15px;
+    padding: 0 20px;
+    text-align: justify;
     strong {
       //color: #ff2846;
       font-weight: 700;

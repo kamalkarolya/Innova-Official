@@ -38,7 +38,7 @@
   transform: scale(1.1)!important;
   background: linear-gradient(180deg,#b3ffab 0,#12fff7)!important;
   -webkit-background-clip: text!important;
-  -webkit-text-fill-color: transparent!important;
+ -webkit-text-fill-color: transparent;
   animation: colorChange 1s ease-in 0s infinite alternate!important;
 }
 .social-box1,.social-box2{
