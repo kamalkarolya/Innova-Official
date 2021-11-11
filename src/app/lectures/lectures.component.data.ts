@@ -7,7 +7,7 @@ const lectureData =  [
     'status': 0,
     'date' : '18th Dec 20',
     'time' : "4:30pm",
-    'imgSrc' : 'assets/images/Neeraj_Jhanji.jpg'
+    'imgSrc' : 'https://i.pinimg.com/originals/3d/07/21/3d0721f57c32030618d96d747aced6db.jpg'
   },
   {
     'id': 1,
@@ -78,7 +78,7 @@ const lectureData =  [
     "about":" Founder FootTheBall",
     "desc":"How to build a Startup from Scratch",
     "status":0,
-    "imgSrc":"assets/images/Sumon_K_Chakrabarti_FootTheBall.jpg"
+    "imgSrc":"https://i.pinimg.com/originals/e0/b6/76/e0b676751bf18ec6a188c0320af31795.jpg"
   },
 
   {
@@ -87,7 +87,7 @@ const lectureData =  [
     "about":"Founder, MathonGo",
     "desc":"Navigating the Ed Tech Startup Ecosystem",
     "status":0,
-    "imgSrc":"assets/images/anup-gupta.jpg"
+    "imgSrc":"https://i.pinimg.com/originals/28/30/84/283084c13a6c0695b8e6a2450e8bd8f7.jpg"
   }
 ]
 

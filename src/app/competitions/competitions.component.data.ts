@@ -139,10 +139,11 @@ const competitionData = [
   },
   "regLink":"https://hack-a-nova.web.app/",
   "status":false,
-  "imagePath":"https://scontent.fdel5-1.fna.fbcdn.net/v/t1.6435-9/166666335_4115043728532761_3719911233380125513_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=973b4a&_nc_ohc=CrtOci-euuoAX-YG_np&_nc_ht=scontent.fdel5-1.fna&oh=f85297d38ceab4c30f04e478cefe0300&oe=61B3160D",
+  "imagePath":"https://i.pinimg.com/736x/49/c4/bd/49c4bdad06775a09e8e8a3374084e272.jpg",
   "time":"10:00 AM",
   "more":"\nCompete with the brightest minds in the country and establish yourself as the best among them. We warmly invite you all to forge out your creativity, embody the spirit of innovation and disrupt the current normal!\nCertificates and other exciting prizes will be issued to all participants!\nRegistrations are NOW OPEN!"
 },
+//https://scontent.fdel5-1.fna.fbcdn.net/v/t1.6435-9/166666335_4115043728532761_3719911233380125513_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=973b4a&_nc_ohc=CrtOci-euuoAX-YG_np&_nc_ht=scontent.fdel5-1.fna&oh=f85297d38ceab4c30f04e478cefe0300&oe=61B3160D
 {
   "id":11,
   "title":"CRESCENDO",
