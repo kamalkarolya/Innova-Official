@@ -2,7 +2,7 @@ const teamData = [
   {
     'id': 1,
     'name': "Aman Kukretti",
-    'designation': "Convener",
+    'designation': "President",
     'mailId': "mailto:amankukretti08@gmail.com",
     'linkedIn': "https://www.linkedin.com/in/aman-kukretti/",
     'imgSrc': "https://i.pinimg.com/originals/c6/f8/55/c6f8558890b18b9a2973fc3af9157900.jpg"
@@ -10,7 +10,7 @@ const teamData = [
   {
     'id': 2,
     'name': "Ameesha Dabas",
-    'designation': "Fest Coordinator",
+    'designation': "Voice President",
     'mailId': "mailto:ameeshadabas2002@gmail.com ",
     'linkedIn': "https://www.linkedin.com/in/ameesha-dabas-8a5b121b8/",
     'imgSrc': "https://i.pinimg.com/originals/24/42/42/2442424cada9845fc783b6cd61f2a77a.jpg"
@@ -18,7 +18,7 @@ const teamData = [
   {
     'id': 3,
     'name': "Mohd Amaan",
-    'designation': "Fest Coordinator",
+    'designation': "Voice President",
     'mailId': "mailto:mohdamaan43210@gmail.com",
     'linkedIn': "https://www.linkedin.com/in/mohd-amaan-8307371b4",
     'imgSrc': "https://i.pinimg.com/originals/f4/03/e9/f403e997491feb26bb4f0225fb6663e1.jpg"
@@ -98,7 +98,7 @@ const teamData = [
   {
     'id': 14,
     'name': "Shivam Sukhija",
-    'designation': "Events Head",
+    'designation': "Events Manager",
     'mailId': "mailto:shivamsukhija57@gmail.com",
     'linkedIn': "https://www.linkedin.com/in/shivam-sukhija-67a194206/",
     'imgSrc': "https://i.pinimg.com/originals/45/35/94/4535943dd824fc9d9634e827080b4546.jpg"
@@ -106,7 +106,7 @@ const teamData = [
   {
     'id': 15,
     'name': "Sadaf Athar Khan",
-    'designation': "Events Head",
+    'designation': "Events Manager",
     'mailId': "mailto:khanfadas@gmail.com",
     'linkedIn': "https://www.linkedin.com/in/sak110/",
     'imgSrc': "https://i.pinimg.com/originals/ec/46/c2/ec46c2037727c63ce23db5d4b45ad659.jpg"
@@ -114,7 +114,7 @@ const teamData = [
   {
     'id': 10,
     'name': "Isha Agarwal",
-    'designation': "Corporate Head",
+    'designation': "Corporate Manager",
     'mailId': "mailto:agr.iisha@gmail.com",
     'linkedIn': "http://linkedin.com/in/isha-agarwal01",
     'imgSrc': "https://i.pinimg.com/originals/63/20/a4/6320a4f10ddf50d424d047fbfef4a72e.jpg"
@@ -122,7 +122,7 @@ const teamData = [
   {
     'id': 11,
     'name': "Pratik",
-    'designation': "Corporate Head",
+    'designation': "Corporate Manager",
     'mailId': "mailto:sariapratik@gmail.com",
     'linkedIn': "https://www.linkedin.com/in/pratik-saria-b58601197/",
     'imgSrc': "assets/images/Pratik_Saria.jpg"
@@ -138,7 +138,7 @@ const teamData = [
   {
     'id': 17,
     'name': "Badal",
-    'designation': "Publicity Head",
+    'designation': "Design Head",
     'mailId': "mailto:badalgami@gmail.com",
     'linkedIn': "https://www.linkedin.com/in/badal-gami-0523641ba/",
     'imgSrc': "https://i.pinimg.com/originals/c8/7a/a5/c87aa5444e03bfbb8c0d5cb3d8ea2c7b.jpg"
@@ -167,7 +167,8 @@ const teamData = [
     'mailId': "mailto:shambhavi.rathore2000@gmail.com",
     'linkedIn': "https://www.linkedin.com/in/shambhavi-rathore-b8b8771b5",
     'imgSrc': "https://i.pinimg.com/originals/66/0d/ed/660ded39af712c393558082cb842bdc3.jpg"
-  }
+  },
+
 ];
 
 export default  teamData;
