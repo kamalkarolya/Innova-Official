@@ -77,7 +77,7 @@ const teamData = [
     'designation': "Technical Head",
     'mailId': "mailto:nitishkumar12c@gmail.com",
     'linkedIn': "https://www.linkedin.com/in/nitish-kumar-370262196/",
-    'imgSrc': "https://i.pinimg.com/originals/f8/cc/28/f8cc283a4fe580da28281e6601ce47c3.jpg"
+    'imgSrc': "https://i.pinimg.com/originals/6c/78/6b/6c786b0a6e118be1949480ada1736b7e.jpg"
   },
   {
     'id': 12,
