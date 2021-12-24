@@ -9,7 +9,7 @@ const competitionData = [
       "day":"9"
     },
     "status":false,
-    "imagePath":"https://scontent.fdel5-1.fna.fbcdn.net/v/t1.6435-9/169062653_1370260079980717_51705240751406265_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=825194&_nc_ohc=GMupf-8UgsAAX9AJ_o_&_nc_ht=scontent.fdel5-1.fna&oh=fc78037ad00bff1a98e9fff4511661a4&oe=61B1F68A",
+    "imagePath":"https://i.pinimg.com/originals/da/59/8e/da598ed3b60cf2aba0e57719acbb096a.png",
     "time":"6:00 PM",
     "more":" PRO MEMER is an open meme-making challenge meant to unleash the creativity inside.Participants would post their meme on their personal Instagram handle, tagging INNOVA's page(@innovadtu), using the tag #innovapromemer .\nSubmissions would be judged on the basis of creativity, uniqueness as well as likes on the post. "
 },
@@ -51,7 +51,7 @@ const competitionData = [
     "day":"9"
   },
   "status":false,
-  "imagePath":"https://scontent.fdel5-1.fna.fbcdn.net/v/t1.6435-9/169607415_4134686409901826_8238033669240117097_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=973b4a&_nc_ohc=4rgZpVFbLIEAX-QQnmr&_nc_ht=scontent.fdel5-1.fna&oh=57d4c51dbcb97d7ef4bc796bc57f894b&oe=61B3F899",
+  "imagePath":"https://i.pinimg.com/originals/6e/84/a1/6e84a1a0472aa1e404adb2a294397b12.jpg",
   "time":"4:00 PM",
    "more":"Participants have to present their case study which covers all aspects of the problem provided. The best cases would be featured in front of our panelists and would also be showcased on our social media platforms."
 },
@@ -80,7 +80,7 @@ const competitionData = [
     "day":"9"
   },
   "status":false,
-  "imagePath":"https://scontent.fdel5-2.fna.fbcdn.net/v/t1.6435-9/169268530_4137310122972788_1827186900333409243_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=973b4a&_nc_ohc=dTTNnyHU388AX8U2dnX&_nc_ht=scontent.fdel5-2.fna&oh=c773791b5ad234ca323ad15c9aa9f67c&oe=61B40D3B",
+  "imagePath":"https://i.pinimg.com/originals/8d/e8/13/8de8139cfc58377c26469e012fdbf916.jpg",
   "time":"9:15 AM",
   "more":" The event will consist of real life stocks and will provide a platform where participants are expected to make a portfolio of stocks that they think will be top performers."
 },
@@ -139,7 +139,7 @@ const competitionData = [
   },
   "regLink":"https://hack-a-nova.web.app/",
   "status":false,
-  "imagePath":"https://i.pinimg.com/736x/49/c4/bd/49c4bdad06775a09e8e8a3374084e272.jpg",
+  "imagePath":"https://i.pinimg.com/originals/9f/df/38/9fdf388654eb39db9cb937e93d757143.jpg",
   "time":"10:00 AM",
   "more":"\nCompete with the brightest minds in the country and establish yourself as the best among them. We warmly invite you all to forge out your creativity, embody the spirit of innovation and disrupt the current normal!\nCertificates and other exciting prizes will be issued to all participants!\nRegistrations are NOW OPEN!"
 },
@@ -154,7 +154,7 @@ const competitionData = [
     "day":"9"
   },
   "status":false,
-  "imagePath":"https://scontent.fdel5-2.fna.fbcdn.net/v/t1.6435-9/168723495_4130875390282928_7168008864606020747_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=973b4a&_nc_ohc=liTt64zfhJ0AX9bTMfQ&_nc_ht=scontent.fdel5-2.fna&oh=3dd4d5310dfb120dd0ae85f3fbfc0ff7&oe=61B3E07B",
+  "imagePath":"https://i.pinimg.com/originals/86/04/89/860489a31c1d2d80deeb6dc31fd9cdef.jpg",
   "time":"9:00 PM",
   "more":"It is a pair up ideathon centered at inculcating leadership, critical thinking and effective communication among participants who will connect for the first time by making them come up with innovative solutions together for a particular problem."
 },
@@ -182,7 +182,7 @@ const competitionData = [
       "day": "9"
   },
   "status": false,
-  "imagePath": "https://scontent.fdel5-1.fna.fbcdn.net/v/t1.6435-9/166953055_4126107817426352_7049329661711170930_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=973b4a&_nc_ohc=cy6ScHHRk-EAX_njQPa&_nc_ht=scontent.fdel5-1.fna&oh=a273b401eae662a52e0dae9b0916f81e&oe=61B2B624",
+  "imagePath": "https://i.pinimg.com/originals/8f/d1/17/8fd1174f4a2a1eea43918ba57cd027fb.jpg",
   "time": "10:00 AM",
   "more":"The challenge will lead to many great design ideas which may eventually come to the real world.\nThe event will be of a single round and the participants will be asked to design a part/component on the given theme or topic. The top  performers will be provided with Certified Solidworks Associate in Mechanical Design. "
 },
@@ -196,7 +196,7 @@ const competitionData = [
       "day": "9"
   },
   "status": false,
-  "imagePath": "https://scontent.fdel5-2.fna.fbcdn.net/v/t1.6435-9/168271845_4127727400597727_6752528135376182286_n.png?_nc_cat=109&ccb=1-5&_nc_sid=973b4a&_nc_ohc=Kiw0alm8PlkAX8aCVZE&_nc_ht=scontent.fdel5-2.fna&oh=eea7ff08d47263ad2b7e4177536a80a2&oe=61B3E56B",
+  "imagePath": "https://i.pinimg.com/originals/25/55/b3/2555b3b5effbdaa59034894bae2113bd.png",
   "time": "9:00 PM",
   "more":"\nUnleash the creativity inside you and win an opportunity to prove yourself as the best. Certificates will be given to all the participants. Also, the best entry will get featured on our social media handles along with prizes/rewards worth INR 1,000+ \n"
 },

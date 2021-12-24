@@ -7,15 +7,20 @@
   justify-content: space-evenly;
 }
 .heading{
-  font-size: 6vw;
+  font-size: 4vw;
   padding-left: 4vw;
 }
+.parabox-1{
+   width: 17rem;
+  line-height: normal;
+  text-align: center;
+}
 .para{
-  background-color: black;
+  background-color: #000000db;
   padding: 2em;
   border: 1px solid white;
   margin: 1rem;
-  border-radius: 65px;
+  border-radius: 50px;
   // align-self: center;
   font-size: 1rem;
   font-weight: 200;
@@ -32,7 +37,7 @@
   line-height: 1.5rem;
 }
 .fas{
-  padding: 0 8px 0px 0px;
+  padding: 0 3px 0px 0px;
 }
 .gettouch{
   display: flex;
@@ -56,7 +61,7 @@
 }
 .parabox{
   padding-left: 2vw;
-  width: 15rem;
+  width: 17rem;
   line-height: normal;
 
 }
@@ -67,9 +72,12 @@
     .para{
         font-size:unset;
         padding: 2rem;
-        border-radius: 56px;
+        
     }
-
+    .parabox-1{
+      text-align:unset;
+      padding-left:1.5rem;
+    }
 
     .sub-heading{
       font-size: 5vw;
@@ -78,6 +86,7 @@
 
     .parabox{
       width: unset;
+      padding-left:4vw;
     }
 }
 @media only screen and (max-width: 760px) {
@@ -100,6 +109,7 @@
 
 @media only screen and (max-width: 1024px) {
    .heading{
+    font-size:8vw;
      padding-left: 0;
    }
    .catchline{
