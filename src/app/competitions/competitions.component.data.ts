@@ -13,7 +13,7 @@ const competitionData = [
     "time":"6:00 PM",
     "more":" PRO MEMER is an open meme-making challenge meant to unleash the creativity inside.Participants would post their meme on their personal Instagram handle, tagging INNOVA's page(@innovadtu), using the tag #innovapromemer .\nSubmissions would be judged on the basis of creativity, uniqueness as well as likes on the post. "
 },
-{  
+{
   "id":2,
    "title":"Structure D",
    "description":"It is a design competition where you are provided with the case questions and you need to design a structure to solve it.",
@@ -211,10 +211,24 @@ const competitionData = [
   },
   'status': false,
   'imagePath': 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.hubspot.com%2Fhubfs%2Fhow-to-write-a-case-study.jpg&f=1&nofb=1',
-  
+
   'time':'2:00 PM',
   'more':'Partiticants are provided with a case scenario which they need to solve'
-}
+},
+{    "id":16,
+    "title":"Code-N-Clash",
+    "description":"INNOVA DTU in collaboration with Pepcoding presents you a chance to flaunt your coding skills.We promise you a mind boggling DSA coding contest on 30 January 2022, which will refine your skills.",
+    "date":{
+      "year":"2022",
+      "month":"Jan",
+      "day":"30"
+    },
+    "status":true,
+    "imagePath":"https://i.pinimg.com/originals/05/f9/b5/05f9b5e458fa92f589e046c5123c9ba7.jpg",
+    "time":"1:00 PM",
+    "regLink":"https://bit.ly/Code-n-Clash",
+    "more":"Prizes worth 20K Free registrations Certificates to all the participants Exclusive Webinar and Content"
+},
 
 ];
 
