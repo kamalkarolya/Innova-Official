@@ -10,7 +10,7 @@ const teamData = [
   {
     'id': 2,
     'name': "Ameesha Dabas",
-    'designation': "Voice President",
+    'designation': "Vice President",
     'mailId': "mailto:ameeshadabas2002@gmail.com ",
     'linkedIn': "https://www.linkedin.com/in/ameesha-dabas-8a5b121b8/",
     'imgSrc': "https://i.pinimg.com/originals/24/42/42/2442424cada9845fc783b6cd61f2a77a.jpg"
@@ -18,7 +18,7 @@ const teamData = [
   {
     'id': 3,
     'name': "Mohd Amaan",
-    'designation': "Voice President",
+    'designation': "Vice President",
     'mailId': "mailto:mohdamaan43210@gmail.com",
     'linkedIn': "https://www.linkedin.com/in/mohd-amaan-8307371b4",
     'imgSrc': "https://i.pinimg.com/originals/f4/03/e9/f403e997491feb26bb4f0225fb6663e1.jpg"
