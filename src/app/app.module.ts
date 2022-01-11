@@ -29,7 +29,7 @@ import { SponsorsComponent } from './sponsors/sponsors.component';
 import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
 import { MoreInfoComponent } from './home/more-info/more-info.component';
-
+import { RecruitmentComponent } from './recruitment/recruitment.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +46,8 @@ import { MoreInfoComponent } from './home/more-info/more-info.component';
     SponsorsComponent,
     TeamComponent,
     ContactComponent,
-    MoreInfoComponent
+    MoreInfoComponent,
+    RecruitmentComponent
   ],
   imports: [
     BrowserModule,
@@ -66,7 +67,7 @@ import { MoreInfoComponent } from './home/more-info/more-info.component';
   ],
   providers: [
     {provide: LocationStrategy, useClass: HashLocationStrategy}
-    
+
     ],
   bootstrap: [AppComponent]
 })

@@ -49,6 +49,9 @@
 .nav-heading{
   padding: 0rem 0 0 3.5rem;
 }
+.navlist .mat-button{
+  line-height: 27px!important;
+}
 @media only screen and (max-width:500px ) {
   .social-box1,.social-box2{
     flex-flow: nowrap;
@@ -68,12 +71,12 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    justify-content: center;
+    justify-content: space-between;
 
   }
   .nav-heading{
     padding: 0;
-    text-align: center;
+  //  text-align: center;
   }
   .margin-section  {
     margin:  1rem;
