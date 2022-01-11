@@ -43,7 +43,7 @@ const teamData = [
     'id': 6,
     'name': "Manisha",
     'designation': "Joint Secretary",
-    'mailId': "mailto:manishadabla2001@gmail.com ",
+    'mailId': "mailto:manishadabla2001@gmail.com",
     'linkedIn': "https://www.linkedin.com/in/manisha-dabla-a8a8a3191",
     'imgSrc': "https://i.pinimg.com/originals/c0/ef/85/c0ef85bd14e40d8638ee5d7130f271cb.jpg"
   },

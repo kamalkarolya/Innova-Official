@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.line{
+  line-height: 36px;
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+}
+.gettouch{
+  display: flex;
+  justify-content: center;
+
+}
+.sub-heading{
+  text-align: center;
+  padding: 12px 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+    color: #fff;
+    line-height: 1.1;
+}
+@media only screen and (max-width: 760px) {
+  .line{
+    font-size: large;
+ }
+   .gform iframe{
+     width: 100%;
+   }
+   .gform{
+     width:100%;
+   }
+}

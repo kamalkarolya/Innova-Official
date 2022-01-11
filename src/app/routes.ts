@@ -8,12 +8,13 @@ import { TemplateBasicComponent } from './template-basic/template-basic.componen
 import { WorkshopsComponent } from './workshops/workshops.component';
 import { ContactComponent } from './contact/contact.component';
 import { MoreInfoComponent } from './home/more-info/more-info.component';
-import { MoreComponent } from './more/more.component'
+import { MoreComponent } from './more/more.component';
+import { RecruitmentComponent } from './recruitment/recruitment.component';
 
 export const routes: Routes = [
   { path: 'home',  component: HomeComponent},
   { path: '', redirectTo: 'home', pathMatch: 'full'},
-  { path: '', component: TemplateBasicComponent, 
+  { path: '', component: TemplateBasicComponent,
     children: [{
       path:'lectures',
       component: LecturesComponent
@@ -33,6 +34,10 @@ export const routes: Routes = [
     {
       path:'team',
       component: TeamComponent
+    },
+    {
+      path:'recruitment',
+      component: RecruitmentComponent
     },
     {
       path:'contact',
