@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MoreInfoComponent } from './home/more-info/more-info.component';
 import { MoreComponent } from './more/more.component';
 import { RecruitmentComponent } from './recruitment/recruitment.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 
 export const routes: Routes = [
   { path: 'home',  component: HomeComponent},
@@ -50,6 +51,10 @@ export const routes: Routes = [
     {
       path: 'more/:id',
       component: MoreComponent
+    },
+    {
+      path: 'privacypolicy',
+      component: PrivacyPolicyComponent
     }
   ]
   },

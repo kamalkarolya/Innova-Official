@@ -30,6 +30,7 @@ import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
 import { MoreInfoComponent } from './home/more-info/more-info.component';
 import { RecruitmentComponent } from './recruitment/recruitment.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { RecruitmentComponent } from './recruitment/recruitment.component';
     TeamComponent,
     ContactComponent,
     MoreInfoComponent,
-    RecruitmentComponent
+    RecruitmentComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,
