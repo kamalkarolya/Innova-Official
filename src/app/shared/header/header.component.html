@@ -22,11 +22,15 @@
 </mat-toolbar>
 </div>
 
-<div *ngIf="sidenav" class="h-100v w-100v bg-black position-fixed sidenav text-white" fxLayout="column" fxLayoutAlign="center center">
-    <button mat-icon-button (click)="closeSidenav()">
+<div *ngIf="sidenav" class="h-100v w-100v bg-black position-fixed sidenav text-white" fxLayout="column" >
+   <div class="tog-btn" >
+     <button mat-icon-button (click)="closeSidenav()">
         <mat-icon class="fa-lg cross-size">clear</mat-icon>
     </button>
-    <div (click)="closeSidenav()">
+  </div>
+  <div  fxLayout="column" fxLayoutAlign="center center" >
+
+  <div (click)="closeSidenav()">
         <a mat-button routerLink="/home" class="nav-link mob-link">Home</a>
     </div>
 
@@ -54,4 +58,5 @@
     <!-- <div (click)="closeSidenav()">
             <a mat-button routerLink="/sign-up" class="bg-white text-black mob-link md-raised p-1"><span class="fa fa-address-card fa-lg"></span> Sign Up</a>
     </div> -->
+  </div>
 </div>
