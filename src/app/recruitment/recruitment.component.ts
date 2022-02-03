@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./recruitment.component.scss']
 })
 export class RecruitmentComponent implements OnInit {
-   status = false;
+   status = true;
   constructor() { }
 
   ngOnInit(): void {

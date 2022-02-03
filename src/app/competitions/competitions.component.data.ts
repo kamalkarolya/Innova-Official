@@ -223,7 +223,7 @@ const competitionData = [
       "month":"Jan",
       "day":"30"
     },
-    "status":true,
+    "status":false,
     "imagePath":"https://i.pinimg.com/originals/05/f9/b5/05f9b5e458fa92f589e046c5123c9ba7.jpg",
     "time":"1:00 PM",
     "regLink":"https://bit.ly/Code-n-Clash",
