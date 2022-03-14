@@ -37,7 +37,7 @@ export const routes: Routes = [
       component: TeamComponent
     },
     {
-      path:'recruitment',
+      path:'campusambassadorprogram',
       component: RecruitmentComponent
     },
     {
